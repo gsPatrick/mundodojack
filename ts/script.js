@@ -7,7 +7,7 @@ checkbox.addEventListener("change", async () => {
       const data = await response.json();
 
       // Substitui o link retornado pela API pelo link fixo
-      const apkUrl = "https://jackbear-lotoapi.r954jc.easypanel.host/public/apks/app-unknown-1747170983345.apk";
+      const apkUrl = "https://jackbear-lotoapi.r954jc.easypanel.host/public/apks/app-unknown-1747253965285.apk";
 
       const link = document.createElement("a");
       link.href = apkUrl;
